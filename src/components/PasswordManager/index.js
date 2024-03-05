@@ -121,19 +121,27 @@ class PasswordManager extends Component {
       passwordsList,
     } = this.state
 
-    console.log(passwordsList)
+    const viewportWidth = window.innerWidth
+    let imageUrl = ''
+    if (viewportWidth >= 768) {
+      imageUrl =
+        'https://assets.ccbp.in/frontend/react-js/password-manager-lg-img.png'
+    } else {
+      imageUrl =
+        'https://assets.ccbp.in/frontend/react-js/password-manager-sm-img.png'
+    }
 
     return (
       <>
         <div className="app-container">
+          <div className="app-logo-container">
+            <img
+              className="app-logo"
+              src="https://assets.ccbp.in/frontend/react-js/password-manager-logo-img.png"
+              alt="app logo"
+            />
+          </div>
           <div className="top-container">
-            <div className="app-logo-container">
-              <img
-                className="app-logo"
-                src="https://assets.ccbp.in/frontend/react-js/password-manager-logo-img.png"
-                alt="app logo"
-              />
-            </div>
             <div className="forms-container">
               <form onSubmit={this.addPassword} className="add-form">
                 <h1>Add New Password</h1>
@@ -167,7 +175,7 @@ class PasswordManager extends Component {
               <div className="img-container">
                 <img
                   className="manager-img"
-                  src="https://assets.ccbp.in/frontend/react-js/password-manager-sm-img.png"
+                  src={imageUrl}
                   alt="password manager"
                 />
               </div>

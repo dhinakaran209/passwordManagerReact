@@ -20,8 +20,8 @@ const PasswordsDisplay = props => {
     <li className="password-item">
       <p className="dp">{website[0].toUpperCase()}</p>
       <div className="pass">
-        <p className="items">{website}</p>
-        <p className="items">{username}</p>
+        <p className="items website">{website}</p>
+        <p className="items username">{username}</p>
         {passwordEle}
       </div>
       <button

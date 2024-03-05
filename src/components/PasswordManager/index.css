@@ -1,0 +1,140 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  min-height: 100vh;
+  align-items: center;
+  padding: 20px;
+}
+
+.app-logo-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+.app-logo {
+  width: 30%;
+}
+
+.top-container {
+  width: 100%;
+}
+
+.forms-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #5763a5;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.add-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  order: 2;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #454f84;
+  color: white;
+}
+
+.manager-img {
+  width: 50%;
+  order: 0;
+  margin-bottom: 10px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-field {
+  box-shadow: 0 2px 2px lightgrey;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  box-shadow: 2px 2px 10px grey;
+}
+
+.add-btn {
+  width: 80px;
+  border-radius: 8px;
+  color: black;
+  padding: 5px;
+  border: none;
+  box-shadow: 2px 2px 10px grey;
+  align-self: flex-end;
+}
+
+.password-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #5763a5;
+  border-radius: 12px;
+  margin-top: 10px;
+  color: white;
+}
+
+.search-and-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.no-of-pass {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30%;
+}
+
+hr {
+  border-color: rgba(0, 0, 0, 0.5);
+  border-width: 1px;
+  width: 100%;
+}
+
+.pass {
+  font-size: 18px;
+}
+
+.search-input-field {
+  width: 100%;
+}
+
+.password-img {
+  width: 50%;
+}
+
+.passwords {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+}
+
+.passwords-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.check {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}

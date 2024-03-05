@@ -1,0 +1,52 @@
+.password-item {
+  background-color: transparent;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #c3caea;
+  width: 33%;
+  margin: 0px 0 10px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.dp {
+  background-color: green;
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.pass {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.items {
+  margin-bottom: 1px;
+  margin-top: 1px;
+  margin-left: 10px;
+}
+
+.delete {
+  background-color: transparent;
+  border: none;
+}
+
+.delete-img {
+  width: 20px;
+  height: 20px;
+}
+
+.stars-img {
+  width: 70%;
+  align-self: flex-end;
+}
